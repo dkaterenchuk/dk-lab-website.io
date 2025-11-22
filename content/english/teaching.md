@@ -1,8 +1,8 @@
 ---
 title: "Teaching"
 description: "Teaching experience and courses"
-draft: false
 bg_image: "images/feature-bg.jpg"
+draft: false
 ---
 
 ## The Graduate Center, The City University of New York
