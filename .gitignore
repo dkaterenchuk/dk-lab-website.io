@@ -1,0 +1,30 @@
+# Hugo generated files
+public/
+resources/
+.hugo_build.lock
+hugo_stats.json
+
+# Dependencies
+node_modules/
+package-lock.json
+
+# OS files
+.DS_Store
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.log
+.sass-cache/
+
+# Hugo cache
+/resources/_gen/

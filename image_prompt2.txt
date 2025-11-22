@@ -1,0 +1,35 @@
+Generate an image following these guidelines:
+
+Following the "Conceptual Digital Collage" style, here is a detailed visual blueprint for an image titled "Stock Market Prediction with Twitter Signal" This can be used as a comprehensive guide for a graphic artist or as a prompt for an AI image generator.
+Image Concept
+
+The artwork will depict a map of NYSE, reimagined as a living network of digital interaction and data. It juxtaposes the rigid, physical geometry of the city's architecture with the fluid, vibrant, and sometimes chaotic world of social media, exploring themes of connection, information overload, and the merging of physical and digital realities.
+
+Visual Breakdown and Composition
+This image will be constructed in distinct, interacting layers:
+1. Base Layer: The Physical NYSE Building
+
+Element: A high-contrast, black-and-white NYSE Building architecture sketches. The style should be clean and architectural. It is the foundational, "real world" element.
+Treatment: The design will be desaturated and slightly muted, serving as a subtle but complex background.
+
+2. Graphic Shapes: The Digital Disruption
+Element: Bold, flat geometric shapes will be superimposed over the building, creating a dramatic visual break.
+A large magenta-and-orange gradient circle, evoking the classic Twitter color scheme, will be the dominant shape, positioned off-center over Midtown.
+A sharp, royal blue rectangle will cut diagonally across a corner, perhaps over the Financial District, representing more structured data networks.
+A smaller, jagged social network graph shape will appear like a "glitch" over another parts of the image.
+
+3. Thematic Layers: The Network & Its Infrastructure
+Social Media Icons: The primary visual focus will be a clean, modern twitter logo, rendered semi-transparently as if it's floating directly on top for the image with general social media network graph scattered, partially obscured by other layers.
+
+Digital Atmosphere: Puffs of "data clouds" — rendered with a slight pixelation or glitch effect — will rise from the map. One cloud will be a dark, dense grey, while another will glow with the blue light of a server room.
+
+The "Machine": A sliver of a glowing server rack, with blinking LEDs and visible wiring, will slice vertically through one side of the composition, revealing the physical hardware that powers this digital world.
+
+4. Foreground Elements: The Language of Data
+Floating UI Elements: Semi-transparent "Like" hearts, notification bubbles, and follower count icons will drift across the image like digital pollen, adding a sense of constant activity.
+
+Code Snippets: Fragments of Python API calls (e.g., fetch('https://api.twitter.com/v1/users/self')) will be placed in the foreground. The text will be in a monospaced font, slightly out of focus.
+
+Connection Lines: Thin, precise, radiating lines will emanate from the central Instagram logo, overlaying the city grid and visually representing the flow and reach of the network.
+
+By combining these elements, the final image will be a dynamic and layered composition that powerfully visualizes the invisible social and data networks overlaid upon the physical landscape of modern urban life.

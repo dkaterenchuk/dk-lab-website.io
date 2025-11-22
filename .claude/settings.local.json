@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl:*)",
+      "Bash(for file in \"KAI-GPTv4-header.jpg\" \"kai-gpt-v4.jpg\" \"KAI-GPTv4-banner.png\" \"kai-gptv4-concept.jpg\")",
+      "Bash(do)",
+      "Bash(echo:*)",
+      "Bash(break)",
+      "Bash(done)",
+      "Bash(rm:*)",
+      "Bash(mv:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
