@@ -1,27 +1,30 @@
-################# English language ################
+################# English language (default) ################
 [en]
 languageName = "English"
 languageCode = "en-US"
 contentDir = "content/english"
 weight = 1
 
-################ French language ##################
-[fr]
-languageName = "Français"
-languageCode = "fr-FR"
-contentDir = "content/french"
-weight = 2
+# Multi-language support disabled - only English is active
+# To re-enable other languages, uncomment the sections below
 
-################ Italian language #################
-[it]
-languageName = "Italiano"
-languageCode = "it-IT"
-contentDir = "content/italian"
-weight = 3
+# ################ French language ##################
+# [fr]
+# languageName = "Français"
+# languageCode = "fr-FR"
+# contentDir = "content/french"
+# weight = 2
 
-################ German language ##################
-[de]
-languageName = "German"
-languageCode = "de-at"
-contentDir = "content/german"
-weight = 4
+# ################ Italian language #################
+# [it]
+# languageName = "Italiano"
+# languageCode = "it-IT"
+# contentDir = "content/italian"
+# weight = 3
+
+# ################ German language ##################
+# [de]
+# languageName = "German"
+# languageCode = "de-at"
+# contentDir = "content/german"
+# weight = 4
