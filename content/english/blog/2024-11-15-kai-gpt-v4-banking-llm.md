@@ -3,7 +3,7 @@ title: "Building KAI-GPT v4: What I Learned About Domain-Specialized LLMs"
 date: 2025-07-15T00:00:00-04:00
 draft: false
 author: "Denys"
-image: "/images/blog/2024/11/kai-gpt.jpeg"
+image: "images/blog/2024/11/kai-gpt.jpeg"
 description: "My experience working on Kasisto's banking-focused LLM that combines domain expertise with hallucination prevention for enterprise financial applications."
 ---
 
@@ -15,7 +15,7 @@ When I talk to financial institutions about deploying AI, I hear the same questi
 
 These aren't just bugs – they're compliance risks that can cost millions. Generic models trained on broad internet data fundamentally lack the specialized knowledge and safety guardrails that banking demands. You can't prompt-engineer your way around this problem.
 
-![KAI-GPT v4 Performance Comparison](/images/blog/2024/11/kai-gpt-v4-performance.png)
+![KAI-GPT v4 Performance Comparison](images/blog/2024/11/kai-gpt-v4-performance.png)
 
 ## Our Approach: Quality Over Quantity
 
@@ -32,13 +32,13 @@ The key insight? Data quality matters far more than volume when building domain 
 
 Here's something counterintuitive I learned: one of the hardest things to teach an LLM is when *not* to answer. Most models are rewarded for being helpful, which leads them to generate plausible-sounding answers even when they're uncertain. In banking, this is catastrophic.
 
-![Question-Answering Performance](/images/blog/2024/11/kai-gpt-v4-qa-metrics.png)
+![Question-Answering Performance](images/blog/2024/11/kai-gpt-v4-qa-metrics.png)
 
 We tackled this by deliberately including unanswerable questions in our training data. The model learned to recognize the boundaries of its knowledge and respond with "I don't know" rather than hallucinate. This might seem trivial, but it fundamentally changed how the model behaves in production.
 
 We used an "LLM-as-a-Judge" approach to refine this behavior. Essentially, we had another model evaluate whether answers were appropriate or if the model should have declined to answer. This created a feedback loop that dramatically reduced hallucinations while maintaining helpfulness for questions the model *should* answer.
 
-![Citation Quality Metrics](/images/blog/2024/11/kai-gpt-v4-citations.png)
+![Citation Quality Metrics](images/blog/2024/11/kai-gpt-v4-citations.png)
 
 The results speak for themselves: our citation quality metrics score 10-15 points higher than GPT-4o and GPT-4.1 across every dimension we measured. When the model does answer, it backs up its claims with proper sources.
 
@@ -52,7 +52,7 @@ When I show our benchmarks to technical audiences, I focus on metrics that trans
 
 That last metric deserves emphasis. We're not just faster – we're *dramatically* faster while running on commodity hardware. For financial institutions processing thousands of customer queries daily, this translates to lower infrastructure costs and better user experience.
 
-![Inference Speed Comparison](/images/blog/2024/11/kai-gpt-v4-speed.png)
+![Inference Speed Comparison](images/blog/2024/11/kai-gpt-v4-speed.png)
 
 The speed advantage isn't just about raw throughput. Faster inference means lower latency for end users. When a customer asks about their account balance, they get an answer in under a second instead of waiting several seconds. That difference matters in production.
 
