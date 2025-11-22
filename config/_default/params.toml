@@ -113,28 +113,18 @@ sidebar = ["recent_posts", "taxonomy_category", "taxonomy_tags"]
 
 ############################# social site ########################=
 [[social]]
-title = "facebook"
-icon = "fab fa-facebook"  # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
-
-[[social]]
-title = "twitter"
-icon = "fab fa-twitter"  # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
-
-[[social]]
-title = "instagram"
-icon = "fab fa-instagram" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
-
-[[social]]
 title = "github"
 icon = "fab fa-github" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
+link = "https://github.com/dkaterenchuk"
 
 [[social]]
 title = "linkedin"
 icon = "fab fa-linkedin" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
+link = "https://www.linkedin.com/in/dkaterenchuk/"
+
+[[social]]
+title = "google scholar"
+icon = "fas fa-graduation-cap" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "https://scholar.google.com/citations?user=Fiqm3y8AAAAJ&hl=en"
 
 
