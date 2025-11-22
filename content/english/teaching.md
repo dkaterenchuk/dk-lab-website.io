@@ -2,6 +2,7 @@
 title: "Teaching"
 description: "Teaching experience and courses"
 bg_image: "images/feature-bg.jpg"
+layout: "teaching"
 draft: false
 ---
 
