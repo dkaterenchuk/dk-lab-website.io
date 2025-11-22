@@ -3,7 +3,7 @@ title: "Building KAI-GPT v4: What I Learned About Domain-Specialized LLMs"
 date: 2025-07-15T00:00:00-04:00
 draft: false
 author: "Denys"
-image: "images/blog/2024/11/kai-gpt.jpeg"
+image: "/images/blog/2024/11/kai-gpt.jpeg"
 description: "My experience working on Kasisto's banking-focused LLM that combines domain expertise with hallucination prevention for enterprise financial applications."
 ---
 
