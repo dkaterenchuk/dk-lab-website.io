@@ -3,7 +3,7 @@ title: "You Should Probably Read This: Hedge Detection"
 date: 2022-01-01T00:00:00-04:00
 draft: false
 author: "Denys"
-image: "/images/blog/2022/01/hedge_related_work.png"
+image: "images/blog/2022/01/hedge_related_work.png"
 description: "How we achieved state-of-the-art hedge detection using neural networks and part-of-speech information on the CoNLL-2010 Wikipedia corpus."
 categories:
   - "Natural Language Processing"
@@ -39,7 +39,7 @@ For word representations, we tried several pre-trained embeddings:
 
 The key insight was that grammatical structure matters for hedge detection. Part-of-speech tags capture patterns like modal verbs and specific verb forms that consistently signal uncertainty. We encoded POS tags as 8-dimensional embeddings that the model learned during training.
 
-![Neural Network Architectures](/images/blog/2022/01/joined_nn.png)
+![Neural Network Architectures](images/blog/2022/01/joined_nn.png)
 
 We explored two ways to incorporate POS information:
 
@@ -49,7 +49,7 @@ We trained each model until development error stabilized, then sampled 10 additi
 
 ## Results
 
-![Model Results](/images/blog/2022/01/results.png)
+![Model Results](images/blog/2022/01/results.png)
 
 ### Baseline word-only models
 
@@ -93,7 +93,7 @@ Automated hedge detection has immediate uses across several domains. In scientif
 
 ## Related work
 
-![Related Research](/images/blog/2022/01/hedge_related_work.png)
+![Related Research](images/blog/2022/01/hedge_related_work.png)
 
 Hedge detection builds on decades of computational linguistics research, from early rule-based approaches to modern neural methods. The CoNLL-2010 shared task established benchmark datasets that enabled direct comparisons across different approaches.
 
