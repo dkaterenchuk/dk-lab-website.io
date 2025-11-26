@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://dkaterenchuk.github.io/dk-lab-website.io/"
+baseURL = "https://www.dk-lab.com/"
 title = "DK-Lab | A Place Where AI Meets Explainability"
 # Default content language
 defaultContentLanguage = "en"
