@@ -2,7 +2,7 @@
 title: "Budget Friendly Deep Learning Home PC"
 date: 2016-04-22T00:00:00-04:00
 draft: false
-author: "Denys"
+author: "Denys Katerenchuk"
 image: "images/blog/2016/03/2016-03-12-16.13.02.jpg"
 description: "A guide to building an affordable yet powerful deep learning workstation for home use."
 categories:

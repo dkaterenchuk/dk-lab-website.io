@@ -2,7 +2,7 @@
 title: "Sentiment Analysis of Manhattan Using Instagram"
 date: 2014-12-28T22:12:42-05:00
 draft: false
-author: "Denys"
+author: "Denys Katerenchuk"
 image: "images/blog/2014/12/nyc_instagram.jpg"
 description: "Analyzing 3.04 million Instagram posts from New York City to understand mood patterns across neighborhoods and throughout the day."
 categories:

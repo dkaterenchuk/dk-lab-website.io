@@ -39,11 +39,17 @@ For word representations, we tried several pre-trained embeddings:
 
 The key insight was that grammatical structure matters for hedge detection. Part-of-speech tags capture patterns like modal verbs and specific verb forms that consistently signal uncertainty. We encoded POS tags as 8-dimensional embeddings that the model learned during training.
 
-![Neural Network Architectures](images/blog/2022/01/joined_nn.png)
+
 
 We explored two ways to incorporate POS information:
 
-First, concatenating POS embeddings directly with word embeddings at the input layer (joint input). Second, running separate networks for words and POS tags, then merging their hidden representations at the final layer before classification (joint latent space). This lets each network specialize - one learns semantic patterns, the other learns grammatical structure.
+![Neural Network Architectures 1](images/blog/2022/01/joined_nn.png)
+
+First, concatenating POS embeddings directly with word embeddings at the input layer (joint input). 
+  
+![Neural Network Architectures 2](images/blog/2022/01/merged_nn.png)
+
+Second, running separate networks for words and POS tags, then merging their hidden representations at the final layer before classification (joint latent space). This lets each network specialize - one learns semantic patterns, the other learns grammatical structure.
 
 We trained each model until development error stabilized, then sampled 10 additional iterations and reported mean scores to ensure robustness.
 
