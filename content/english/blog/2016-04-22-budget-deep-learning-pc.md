@@ -3,7 +3,7 @@ title: "Budget Friendly Deep Learning Home PC"
 date: 2016-04-22T00:00:00-04:00
 draft: false
 author: "Denys"
-image: "images/blog/2016/03/2016-03-12-16.13.02.jpg"
+image: "/images/blog/2016/03/2016-03-12-16.13.02.jpg"
 description: "A guide to building an affordable yet powerful deep learning workstation for home use."
 categories:
   - "Deep Learning"
@@ -18,9 +18,8 @@ For over ten years, my main work tool has been a laptop. For most tasks — whet
 
 Working with deep learning on a daily basis, I needed to find an efficient setup with accessible GPU power. I considered several options: 1) use our lab GPUs, 2) rent an AWS instance, or 3) buy a home PC. Each option had its drawbacks: 1) the lab GPUs were hard to manage (no root access), had constant problems with libraries and dependencies, and I couldn't run personal projects on shared resources; 2) AWS was expensive and required working on a virtual machine; 3) buying a personal server meant dealing with purchasing, storage, management, etc. With no real intention to buy a PC, I was surprised to find many deals and promotions on computers and parts, including a $170 sale on the Lenovo TS140 - a workstation. This was a great opportunity to build a deep learning PC for under $600. Here's how I did it.
 
-<div align="center">
-<a href="http://www.dk-lab.com/wp-content/uploads/2016/03/2016-03-12-16.13.28-e1457933691187.jpg" rel="attachment wp-att-420"><img src="http://www.dk-lab.com/wp-content/uploads/2016/03/2016-03-12-16.13.28-1024x768.jpg" alt="2016-03-12 16.13.281" width="500" height="375" class="alignleft size-large wp-image-420" /></a>
-</div>
+![Lenovo TS140 ThinkServer](/images/blog/2016/03/2016-03-12-16.13.28.jpg)
+
 
 ## The Build
 
@@ -28,17 +27,13 @@ After researching various options, I decided to go with a Lenovo TS140 ThinkServ
 
 The advantages of this server were its price, compact size, and the fact that it ships with minimal components. This allows you to decide what's important for your specific build. I had a couple of hard drives lying around and ordered an additional 4TB drive to use for data storage. This server can accommodate four drives plus a CD/DVD drive. In addition to the 4GB ECC RAM that came with the server, I ordered 4×8GB of non-ECC RAM, bringing the total to 32GB of RAM. While ECC memory is recommended for this server, the price was too high for an ECC feature that seemed excessive for my intended use. Having extra RAM, on the other hand, makes work more comfortable and saves you from playing the "big data optimization game" when it's not necessary.
 
-<div align="center">
-<a href="http://www.dk-lab.com/wp-content/uploads/2016/03/2016-03-12-16.17.02-e1457933771824.jpg" rel="attachment wp-att-422"><img src="http://www.dk-lab.com/wp-content/uploads/2016/03/2016-03-12-16.17.02-1024x768.jpg" alt="2016-03-12 16.17.02" width="500" height="375" class="alignleft size-large wp-image-422" /></a>
-</div>
+![Server internals with RAM installed](/images/blog/2016/03/2016-03-12-16.17.02.jpg)
 
 ## GPU Selection
 
 Now it was time to decide on a GPU. Most deep learning libraries support only CUDA, which means we're limited to Nvidia GPUs. At the time, the current generation was the 9xx series. There were some very good and powerful options from previous generations, but my concerns were power consumption and future support. The GeForce GTX TITAN X and GTX 980 TI were the best consumer GPUs available, but they were quite expensive. For a budget-friendly build, the GTX 970 could have been a good choice, but due to the specifics of its memory architecture, it's not recommended for some deep learning applications. As a result, I settled on its more affordable sibling, the GTX 960 4GB. This GPU is rated as one of the best for its price-to-performance ratio. This particular version from Asus is slightly shorter, which fits perfectly inside Lenovo's micro ITX case.
 
-<div align="center">
-<a href="http://www.dk-lab.com/wp-content/uploads/2016/03/2016-03-12-16.40-e1457933805174.jpg" rel="attachment wp-att-442"><img src="http://www.dk-lab.com/wp-content/uploads/2016/03/2016-03-12-16.40-e1457933805174-1024x768.jpg" alt="2016-03-12 16.40" width="500" height="375" class="alignleft size-large wp-image-442" srcset="http://www.dk-lab.com/wp-content/uploads/2016/03/2016-03-12-16.40-e1457933805174-1024x768.jpg 1024w, http://www.dk-lab.com/wp-content/uploads/2016/03/2016-03-12-16.40-e1457933805174-300x225.jpg 300w, http://www.dk-lab.com/wp-content/uploads/2016/03/2016-03-12-16.40-e1457933805174-768x576.jpg 768w, http://www.dk-lab.com/wp-content/uploads/2016/03/2016-03-12-16.40-e1457933805174-350x263.jpg 350w, http://www.dk-lab.com/wp-content/uploads/2016/03/2016-03-12-16.40-e1457933805174-700x525.jpg 700w, http://www.dk-lab.com/wp-content/uploads/2016/03/2016-03-12-16.40-e1457933805174.jpg 1500w" sizes="(max-width: 500px) 100vw, 500px" /></a>
-</div>
+![Asus GTX 960 GPU installed](/images/blog/2016/03/2016-03-12-16.40.jpg)
 
 ## Performance Testing
 
@@ -67,6 +62,4 @@ I later updated the GPU to an NVidia GTX 1070. This appeared to be the best card
 
 Eventually, this little machine outlived the ever growing deep learning models and datasets. I upgraded to a more powerful setup with a full-sized case, better cooling, and better GPUs. Lenovo is still my manufacturer of choice; I went with a ThinkStation P520 tower with 20 core Xeon CPU that can fit the latest GPUs and up to 128GB of RAM. After **upgrading the power supply**, I installed a single NVidia GTX 3090 card, which is currently the best consumer GPU available. This setup is still very affordable compared to enterprise solutions, and it performs extremely well for my research needs.
 
-<div align="center">
-<a href="/images/blog/2016/03/lenovo_p520.jpeg" rel="attachment wp-att-442"><img src="/images/blog/2016/03/lenovo_p520.jpeg"  width="500" height="375" class="alignleft size-large wp-image-442" sizes="(max-width: 500px) 100vw, 500px" /></a>
-</div>
+![Lenovo ThinkStation P520 with RTX 3090](/images/blog/2016/03/lenovo_p520.jpeg)

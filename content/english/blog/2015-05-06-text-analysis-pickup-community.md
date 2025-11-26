@@ -3,7 +3,7 @@ title: "War Story: Text Analysis – Looking for Questions in Pickup Dating Comm
 date: 2015-05-06T22:34:07-04:00
 draft: false
 author: "Denys Katerenchuk"
-image: "images/blog/2015/05/General.png"
+image: "/images/blog/2015/05/General.png"
 description: "A comprehensive text analysis of the pickup dating community using network analysis, sentiment analysis, and natural language processing techniques to uncover social hierarchies and linguistic patterns."
 categories:
   - "Data Science"
@@ -33,12 +33,7 @@ Our primary research questions focused on:
 
 Anders significantly facilitated our research by locating a comprehensive archive of fastseduction.com forum data. The dataset consisted of unstructured post collections from various users spanning multiple years. While this provided rich content for analysis, the data presented significant preprocessing challenges due to inconsistent formatting and noise.
 
-<div align="center">
-  <img src="images/blog/2015/05/raw-data-wordcloud.png" alt="Sample of Raw Data as Word Cloud" width="825" height="240" />
-</div>
-<div style="text-align: center;">
-  <em>Figure 1: Sample of Raw Data Visualized as Word Cloud</em>
-</div>
+![Sample of Raw Data as Word Cloud](/images/blog/2015/05/Screen-Shot-2015-05-03-at-9.03.56-PM.png)
 
 To address the exploratory nature of our research, I adopted a quantitative, data-driven approach to identify interesting patterns that could inform Anders's anthropological analysis. Visualization became our primary tool for understanding community dynamics, with network analysis serving as the foundation for revealing user relationships and influence patterns.
 
@@ -60,12 +55,7 @@ Using Python and the NetworkX library, I constructed a social network where foru
 
 ### Community Network Structure
 
-<div align="center">
-  <img src="images/blog/2015/05/General.png" alt="Pickup Community Network Graph" width="960" height="527" />
-</div>
-<div style="text-align: center;">
-  <em>Figure 2: Pickup Community Social Network Visualization</em>
-</div>
+![Pickup Community Social Network Visualization](/images/blog/2015/05/General.png)
 
 The network analysis reveals a highly interconnected community structure. Most participants interact frequently with multiple other users, indicating a cohesive social environment. However, significant variation in connectivity patterns suggests the presence of influential users and potential subgroups. This dense interconnectivity provided an excellent foundation for deeper natural language processing analysis.
 
@@ -106,19 +96,9 @@ Since explicit hierarchy information was unavailable, we employed two complement
 1. **Maximum Clique Detection**: Identifying the largest fully-connected subgroup (25 users)
 2. **Eigenvector Centrality**: Computing influence scores similar to PageRank algorithms
 
-<div align="center">
-  <img src="images/blog/2015/05/Clique.png" alt="Maximum Clique in Pickup Community" width="1181" height="647" />
-</div>
-<div style="text-align: center;">
-  <em>Figure 3: Maximum Clique Analysis Revealing Core Community Members</em>
-</div>
+![Maximum Clique Analysis Revealing Core Community Members](/images/blog/2015/05/Clique.png)
 
-<div align="center">
-  <img src="images/blog/2015/05/TopCentrality.png" alt="Top Users by Eigenvector Centrality" width="1148" height="631" />
-</div>
-<div style="text-align: center;">
-  <em>Figure 4: Eigenvector Centrality Rankings</em>
-</div>
+![Eigenvector Centrality Rankings](/images/blog/2015/05/TopCentrality.png)
 
 Both methods identified largely overlapping sets of highly-connected users, validating our hierarchy detection approach.
 
@@ -126,12 +106,7 @@ Both methods identified largely overlapping sets of highly-connected users, vali
 
 Our analysis of linguistic patterns across perceived hierarchy levels yields fascinating insights:
 
-<div align="center">
-  <img src="images/blog/2015/05/TopMidLow.png" alt="Sentiment and Pronoun Use by Status Levels" width="1158" height="625" />
-</div>
-<div style="text-align: center;">
-  <em>Figure 5: Linguistic Patterns Across Hierarchy Levels</em>
-</div>
+![Linguistic Patterns Across Hierarchy Levels](/images/blog/2015/05/TopMidLow.png)
 
 **Key Findings:**
 - **Sentiment-Status Correlation**: Higher-status users exhibit more positive sentiment patterns
@@ -142,12 +117,7 @@ Our analysis of linguistic patterns across perceived hierarchy levels yields fas
 
 Using k-means clustering with unigram feature vectors, we investigated whether users adopt linguistic styles from their peers. Our analysis suggests that if style mimicry occurs, it doesn't follow simple hierarchical patterns.
 
-<div align="center">
-  <img src="images/blog/2015/05/clustering-analysis.png" alt="K-means Clustering of Users by Writing Style" width="1175" height="629" />
-</div>
-<div style="text-align: center;">
-  <em>Figure 6: Writing Style Clustering Analysis</em>
-</div>
+![Writing Style Clustering Analysis](/images/blog/2015/05/Screen-Shot-2015-05-03-at-11.54.22-PM.png)
 
 The clustering patterns suggest that linguistic influence may be driven by communication frequency and role model relationships rather than strict hierarchical mimicry.
 
