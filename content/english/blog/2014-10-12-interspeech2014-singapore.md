@@ -9,7 +9,7 @@ categories:
   - "Conference"
   - "NLP"
   - "Speech Recognition"
-tags: ["Conference",  "Research"]
+tags: ["Conference"]
 ---
 
 This year my colleagues from SpeechLab and I were invited to Interspeech2014 conference to present our work. The conference was held in Singapore, a great city with multilingual culture. The city was the perfect choice for an NLP and speech conference. I was impressed by how well everything was organized from the opening ceremony to the very end. It made the 24-hour flight from NYC to Singapore well worth it. The best part of the conference was the whole slew of interesting research papers in various areas of NLP.

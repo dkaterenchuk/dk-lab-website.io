@@ -7,10 +7,9 @@ image: "images/blog/2015/05/General.png"
 description: "A comprehensive text analysis of the pickup dating community using network analysis, sentiment analysis, and natural language processing techniques to uncover social hierarchies and linguistic patterns."
 categories:
   - "Data Science"
-  - "NLP"
   - "Social Psychology"
   - "Network Analysis"
-tags: ["Text Analysis", "Network Analysis", "Data Visualization", "Social Psychology"]
+tags: ["Data Visualization", "Social Psychology"]
 ---
 
 ## Abstract

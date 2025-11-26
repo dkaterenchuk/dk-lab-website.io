@@ -9,7 +9,7 @@ categories:
   - "Data Science"
   - "Data Visualization"
   - "NLP"
-tags: ["Sentiment Analysis", "Instagram", "Geospatial Analysis", "Social Media"]
+tags: ["Geospatial Analysis", "Social Media"]
 ---
 
 [Note: Unfortunately, most images were lost due to changes in carto.com service.]

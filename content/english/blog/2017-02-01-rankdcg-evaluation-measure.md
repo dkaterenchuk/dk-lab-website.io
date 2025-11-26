@@ -8,8 +8,7 @@ description: "Introducing RankDCG, a new evaluation measure for ranking algorith
 categories:
   - "Machine Learning"
   - "Information Retrieval"
-  - "Research"
-tags: ["RankDCG", "Evaluation Metrics", "Information Retrieval", "Ranking Algorithms", "Research"]
+tags: ["RankDCG", "Evaluation Metrics", "Information Retrieval", "Ranking Algorithms"]
 ---
 
 Advanced algorithms improve our lives in subtle, but consistent ways. Google search results seldom make us go to the second page and Netflix magically recommends an interesting movie. These are outcomes of multiple trials and errors to find the best recommendation algorithm. How do these companies determine which algorithm is the best? Evaluating different ranking algorithms is not a trivial task. This is why we developed the Rank Discounter Cumulative Gain (RankDCG) evaluation measure.

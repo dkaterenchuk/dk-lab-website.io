@@ -9,7 +9,7 @@ categories:
   - "Deep Learning"
   - "Hardware"
   - "Neural Networks"
-tags: ["Deep Learning", "GPU", "Hardware", "TensorFlow", "Budget Build"]
+tags: ["Deep Learning PC"]
 ---
 
 For over ten years, my main work tool has been a laptop. For most tasks — whether it is software development or research — laptops deliver good performance with the advantage of working from anywhere. More demanding work gets done on remote servers or cloud computing platforms. In my lab, I set up a Sun Grid Engine cluster of six servers that brings together the power of 36 Xeon CPUs. This system was used to build Automatic Speech Recognition (ASR) models (which took over a month to train) and to run many other extensive experiments. My laptop simply couldn't compete with it. However, in recent years with the development of deep learning, GPUs have become incredibly powerful tools in research. For example, when I needed to run the same ASR training, a single GPU reduced training time from over 30 days to around 6.

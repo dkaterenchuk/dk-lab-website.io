@@ -2,13 +2,13 @@
 title: "You Should Probably Read This: Hedge Detection"
 date: 2022-01-01T00:00:00-04:00
 draft: false
-author: "Denys"
+author: "Denys Katerenchuk"
 image: "images/blog/2022/01/hedge_related_work.png"
 description: "How we achieved state-of-the-art hedge detection using neural networks and part-of-speech information on the CoNLL-2010 Wikipedia corpus."
 categories:
   - "Natural Language Processing"
   - "Deep Learning"
-tags: ["NLP", "Hedge Detection", "Neural Networks", "GRU", "LSTM", "Uncertainty"]
+tags: ["Natural Language Processing", "Hedge Detection", "Neural Networks"]
 ---
 
 Imagine a doctor says "The patient likely has pneumonia" versus "The patient has pneumonia." That single word changes everything. The first statement hedges the diagnosis, expressing uncertainty that could affect treatment decisions. The second makes a definitive claim.

@@ -10,7 +10,7 @@ categories:
   - "Finance"
   - "NLP"
   - "Machine Learning"
-tags: ["Stock Market Prediction", "Twitter Analysis", "Sentiment Analysis", "Machine Learning", "Finance", "Social Media Analytics"]
+tags: ["Stock Market Prediction", "Twitter Analysis", "Machine Learning", "Finance", "Social Media Analytics"]
 ---
 
 ## Introduction

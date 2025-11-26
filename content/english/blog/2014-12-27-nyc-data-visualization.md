@@ -8,8 +8,7 @@ description: "Data visualization insights from New York City datasets and Broadw
 categories:
   - "Data Science"
   - "Visualization"
-  - "Data Analytics"
-tags: ["Data Visualization", "Data Science", "R", "ggplot2"]
+tags: ["Data Visualization", "Data Science"]
 ---
 
 ## Introduction
