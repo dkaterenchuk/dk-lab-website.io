@@ -3,7 +3,7 @@ title: "RankDCG: Ranking-Ordering Evaluation Measure"
 date: 2017-02-01T18:45:35-05:00
 draft: false
 author: "Denys Katerenchuk"
-image: "images/blog/2017/02/RankDCG_posterV1.pdf"
+image: "images/blog/2017/02/RankDCG_posterV1.jpg"
 description: "Introducing RankDCG, a new evaluation measure for ranking algorithms that addresses limitations of traditional measures like nDCG."
 categories:
   - "Machine Learning"
